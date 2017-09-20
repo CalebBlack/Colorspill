@@ -1,4 +1,5 @@
 window.onload = function(){
+  console.log('Github Project found at https://github.com/CalebBlack/Colorspill');
   var canvas = document.getElementById('game');
   if (canvas) {
     setupGame(canvas);

@@ -1,4 +1,3 @@
-
 window.onload = function(){
   var canvas = document.getElementById('game');
   if (canvas) {
@@ -8,7 +7,6 @@ window.onload = function(){
 var renderCanvas = document.createElement('canvas');
 renderCanvas.setAttribute('width',1000);
 renderCanvas.setAttribute('height',1000);
-
 var renderContext = renderCanvas.getContext('2d');
 var context;
 var width;
